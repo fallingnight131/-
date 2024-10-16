@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\PROJECTS\VSCODE PROJECTS\PYTHON\2024_10\MEDIANFILTER\CMAKELISTS.TXT
+setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe "-SD:/Documents/Projects/VSCode Projects/Python/2024_10/MedianFilter" "-BD:/Documents/Projects/VSCode Projects/Python/2024_10/MedianFilter/build" --check-stamp-file "D:/Documents/Projects/VSCode Projects/Python/2024_10/MedianFilter/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
