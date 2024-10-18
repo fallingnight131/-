@@ -8,7 +8,7 @@ sys.path.append("D:/Documents/Projects/VSCode Projects/Python/2024_10/MedianFilt
 
 
 # 读取图像
-img = cv2.imread('./imagesgy.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('./images/mlynar.jpg', cv2.IMREAD_COLOR)
 
 # 将图像转换为 numpy 数组
 img_np = np.array(img, dtype=np.uint8)
@@ -24,7 +24,7 @@ dim = (width, height)
 
 
 #保存图片
-cv2.imwrite('filtered_img.jpg', filtered_img)
+cv2.imwrite('images/filtered_img.jpg', filtered_img)
 
 # 调整图像大小
 resized_img = cv2.resize(filtered_img, dim, interpolation=cv2.INTER_AREA)
