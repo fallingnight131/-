@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Projects\VSCode Projects\Python\2024_10\MedianFilter\filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Projects\VSCode Projects\Python\2024_10\MedianFilter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF2D51F1-69CB-391B-A908-09737F0A79CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
