@@ -13,5 +13,7 @@
 
 ## 运行方法
 在根目录创建一个名为extern的文件夹，[pybind11](https://github.com/pybind/pybind11)文件夹放在其中
+
 通过cmake构建，构建工具选择visual studio生成器
+
 将构建出来的动态链接库放在根目录，即可运行main.py
